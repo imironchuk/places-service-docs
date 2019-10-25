@@ -29,3 +29,6 @@ To test the in-app message delivery, launch the application in Xcode or Android 
 
 
 Using Places with Adobe Campaign Standard gives you a powerful tool to segment and target your messaging to users based on geo-fence entries and extis. This simple integration opens the door for building out more personalized and contextual use cases.
+
+### Video Example
+https://youtu.be/ikiTTQw9c-o
