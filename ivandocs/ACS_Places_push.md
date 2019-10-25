@@ -1,11 +1,11 @@
-#Adobe Campaign Standard
-##Push Notifications with Experience Platform Location Service
+# Adobe Campaign Standard
+## Push Notifications with Experience Platform Location Service
 
 In this guide, we’ll show how you can use historical geo-location information to target push notifications delivered through Adobe Campaign Standard. 
 
 Before we begin, this guide assumes that you have a mobile application already configured with the Adobe Experience Platform Mobile SDK, including the Adobe Campaign Standard extension. 
 
-###Prerequisites
+### Prerequisites
 
 1. Integrate the [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) into your app.
 2. Add the [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to your mobile app configuration.
@@ -24,7 +24,7 @@ After you verify that the Places and Places Monitor for Location Service extensi
 
    **Last Entered** retrieves the name of the POI that user last entered, and **Last Exited** provides the name of the POI that the user last left. For this example, we will selected **Last Entered** and type a name for the data element, such as **Last Entered POI Name** and clicked **Save**.
 
-![](/Users/ivanmironchuk/Desktop/PlacesDocs/ACS+Places/1.png)
+![](images/ACS+Places/1.png)
 
 5. Repeat the same steps above and create data elements for _Last Entered POI Latitude_, _Last Entered POI Longitude_, and _Last Entered POI Radius_.
 
@@ -82,14 +82,14 @@ Now that we have location data populated in Campaign, we can use POIs as an audi
 
 *You can make additional selections to determine the range of time since the user’s last visit to this POI.*
 
-![](/Users/ivanmironchuk/Desktop/PlacesDocs/ACS+Places/2.png)
+![](images/ACS+Places/2.png)
 
 7. Click **Confirm**.
 8. Run the count again at the top to see your audience size change.  If you do not see your count update, you might have entered a POI name for which no devices have triggered an entry. This is where having the Slack web hook becomes valuable, because you can see a listing of POI entries from various test devices.
 9. You can drag out additional POI location filters to include multiple POIs in your message.
 10. Click **Next** to finish creating the push notification for delivery.
 
-![](/Users/ivanmironchuk/Desktop/PlacesDocs/ACS+Places/3.png)
+![](images/ACS+Places/3.png)
 
 Using Location Service with Adobe Campaign Standard gives you a powerful tool to segment and target your messaging to users based on geo-fence entries and extis. This simple integration opens the door for building out more personalized and contextual use cases.
 
