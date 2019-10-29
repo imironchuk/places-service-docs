@@ -1,5 +1,5 @@
 # Adobe Experience Platform Location Service
-## Recommentations for testing Location Service
+## Recommendations for testing Location Service
 
 As many customers and organizations will define points of interest across the globe, it becomes important to have a way to simulate and test how the Adobe Experience Platform Location Service will interact with your application. 
 
@@ -27,7 +27,7 @@ This plan assumes that Points of Interest have been created in Places.adobe.com 
 | 8 	| Once Location permission has been accepted you should see in the application console messages that indicate ```"ACPExtensionEventName" : "requestgetnearbyplaces"```, has been called. Switching between different locations in XCode or Android studio should produce entry events for specific POIs  	| "ACPExtensionEventName" : "requestgetnearbyplaces" should be displayed as you simulate different locations.	|
 | 9 	| If the Location you have selected is close to nearby POIs the Monitor extension will start monitoring the 20 closest POIs from the current location. Message in the console will be similar to:```[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places:```| Switching between different locations in XCode or Android studio should produce entry events for specific POIs 	|
 | 10 	| Once you see the Places Monitor find nearby POIs - you will want to test sending location pings out. In Launch create a new rule with that uses the Places extension to trigger based on geo-fence entry. Then create a new action using Mobile Core to send a Postback. Creating a Slack Webhook app can be super helpful to see location entries and exits. For information on creating a Slack Webhook app see: https://api.slack.com/messaging/webhooks	|  	|
-| 10a 	| In Launch make sure you have added data elements for the Places extension including: <br>Current POI name<br>Current POI lat<br>Current POI long<br>Last Entered name<br>Last Entered lat<br>Last Entered long<br>Last Existed name<br>Last Existed lat<br>Last Existed long<br>Timestamp 	|  	|
+| 10a 	| In Launch make sure you have added data elements for the Places extension including: <br>Current POI name<br>Current POI lat<br>Current POI long<br>Last Entered name<br>Last Entered lat<br>Last Entered long<br>Last Exited name<br>Last Exited lat<br>Last Exited long<br>Timestamp 	|  	|
 | 10b 	| Create a new rule with an Event = Places → Enter POI 	|  	|
 | 10c 	| Create an an action = Mobile Core → Postback 	|  	|
 | 10d 	| Use the Webhook URL for your Slack app i.e.:  https://hooks.slack.com/services/TKN5FKS68/BNFP7SVD….. 	|  	|
