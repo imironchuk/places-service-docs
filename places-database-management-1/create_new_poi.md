@@ -14,11 +14,11 @@ A point of interest \(POI\) is a location or a point on a map that is of importa
 4. Enter a radius for the POI (minimum distance recommended is 100m)
 5. Optional
 
-   a. Select an icon for your POI.
-   
-   b. Select a color for the icon.<br>
+   a. Select an icon for your POI.<br>
    
 ![](../.gitbook/assets/icons_poi.png)<br>
+   
+   b. Select a color for the icon.
    
    c. Specify a category for your POI.
 
@@ -44,9 +44,8 @@ A point of interest \(POI\) is a location or a point on a map that is of importa
    
 ![](../.gitbook/assets/metadata.png)<br>
 
+a. Type the key name.
 
-     a. Type the key name.
-
-   b. Type the key value.
+b. Type the key value.
 
 8. Click **Save**.
