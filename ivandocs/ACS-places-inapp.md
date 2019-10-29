@@ -6,14 +6,14 @@ In this guide, we’ll show how you can use Adobe Experience Platform Location S
 Before we begin, this guide assumes that you have a mobile application already configured with the Adobe Experience Platform Mobile SDK, including the Adobe Campaign Standard extension. 
 
 ### Prerequisites
-1.  Integration the [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) into your app.
+1.  Integrate the [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) into your app.
 2. Add the [Adobe Campaign Standard Extension](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) to your mobile app configuration.
 3. [Create one or more POIs](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) in the Places POI management interface.
 4. Install and configure the [Places]() and [Places Monitor Extensions]() in your mobile application
 
 ### Sending In-App Messages based on Geo-fence entry or exit
 1. In your Adobe Campaign Standard instance, click **Create In-App message**.
-2.  For the message type select **Target all users of a Mobile application**.
+2. For the message type select **Target all users of a Mobile application**.
 3. Click **Next** and type the general details on the next screen.
 4. You’ll see on the left sidebar that you can now use a variety triggers related to Places.
 5. You can choose to have the in-app message display if the user has entered a POI geo-fence.
